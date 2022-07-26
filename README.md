@@ -11,5 +11,11 @@ bm25 : space를 기준으로 DTM를 생성한 결과, Konlpy의 Okt를 활용하
 
 bm25+rerank 
 
-ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 
+ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT  
 
+|모델|MRR|설명|
+|------|---|---|
+|bm25+space|0.7815|space(공백)을 기반으로 DTM을 생성하였습니다.|
+|bm25+Okt|0.8734|Okt의 morphs를 이용하여 DTM을 생성하였습니다.|
+|bm25+rerank|테스트2|테스트3|
+|ColBERT|0.9524|KoElectra-base 모델을 기반으로 학습하였습니다.|
