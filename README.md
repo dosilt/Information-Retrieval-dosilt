@@ -13,9 +13,9 @@ bm25+rerank : train 데이터의 bm25결과를 이용하여 특정 query와 연�
 
 ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT  
 
-|모델|MRR|설명|
-|------|---|---|
-|bm25+space|0.7815|space(공백)을 기반으로 DTM을 생성하였습니다.|
-|bm25+Okt|0.8734|Okt의 morphs를 이용하여 DTM을 생성하였습니다.|
-|bm25+rerank|0.9199|KoElectra-small 모델을 기반으로 학습하였습니다.|
-|ColBERT|0.9524|KoElectra-base 모델을 기반으로 학습하였습니다.|
+||모델|MRR|설명|
+|1|------|---|---|
+|2|bm25+space|0.7815|space(공백)을 기반으로 DTM을 생성하였습니다.|
+|3|bm25+Okt|0.8734|Okt의 morphs를 이용하여 DTM을 생성하였습니다.|
+|4|bm25+rerank|0.9199|KoElectra-small 모델을 기반으로 학습하였습니다.|
+|5|ColBERT|0.9524|KoElectra-base 모델을 기반으로 학습하였습니다.|
