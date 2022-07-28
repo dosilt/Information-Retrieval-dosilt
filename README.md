@@ -21,5 +21,5 @@ ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Lat
 |**3**|**1**+rerank|0.9199|KoElectra-small 모델을 기반으로 학습하였습니다.|
 |**4**|**2**+rerank|0.9873|KoElectra-small 모델을 기반으로 학습하였습니다.|
 |**6**|ColBERT|0.9524|KoElectra-base 모델을 기반으로 학습하였습니다.|
-|**7**|**1**+ColBERT|0.9198|KoElectra-base 모델을 기반으로 학습하였습니다.|
-|**8**|**2**+ColBERT|0.9872|KoElectra-base 모델을 기반으로 학습하였습니다.|
+|**7**|**1**+ColBERT|0.9198|^|
+|**8**|**2**+ColBERT|0.9872|^|
