@@ -34,5 +34,5 @@ ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Lat
 > *2. 다양한 데이터로 학습*
 > > 학습 데이터를 bm25의 결과의 상위 n개로 제한 두지 말고 넓게 학습  
 >
-> *3. 파라미터 변환*
-> > 최적의 모델 성능을 끌어내기 위한 파라미터 
+> *3. 하이퍼 파라미터 탐색*
+> > 최적의 모델 성능을 끌어내기 위한 파라미터 탐색 과정 (ex, LR, Initializer, Epoch, Batch, Data preprocessing etc..)
