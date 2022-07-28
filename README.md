@@ -9,7 +9,7 @@ train 데이터에 80%는 학습에 20%는 테스트에 이용한 결과이며, 
 
 bm25 : space를 기준으로 DTM를 생성한 결과, Konlpy의 Okt를 활용하여 DTM을 생성한 결과 
 
-bm25+rerank 
+bm25+rerank : train 데이터의 bm25결과를 이용하여 특정 query와 연관성이 높은 상위 10개 document를 이용하여 학습
 
 ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT  
 
