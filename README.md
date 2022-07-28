@@ -30,7 +30,9 @@ ColBERT : ColBERT: Efficient and Effective Passage Search via Contextualized Lat
 # 추가적인 개선사항
 > *1.* 학습을 좀 더 길게
 > > 현재 간단한 구현 확인만 하기 위해 epoch은 4로 학습, loss graph로 보건데 수렴이 덜 된것으로 보임  
+>
 > *2.* 다양한 데이터로 학습
 > > 학습 데이터를 bm25의 결과의 상위 n개로 제한 두지 말고 넓게 학습  
+>
 > *3.* 파라미터 변환
 > > 최적의 모델 성능을 끌어내기 위한 파라미터 
